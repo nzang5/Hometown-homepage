@@ -1,0 +1,93 @@
+*, body {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #FBFAF5;
+}
+
+#hero{
+    margin-top: 10px;
+    background-image: url("./images/berlin1.jpg");
+    background-size: 100% 100%;
+    padding-top: 250px;
+    padding-right: 405px;
+    padding-left: 10px;
+    height: 600px;
+    width: 720px;
+    box-sizing: border-box;
+}
+
+.hero-title{
+    margin-top: 0 0 10px 10px;
+    font-size: 90px;
+    font-weight: 70;
+    padding-left: 5px;
+    background: #24232378;
+    border-radius: 20px;
+}
+
+.hero-intro{
+    margin-top: 10px;
+    background: #24232378;
+    padding-left: 5px;
+    width: 400px;
+    font-size: 15px;
+    text-shadow: 0 0 1px black;
+}
+
+#activities{
+    background-color: rgba(38, 149, 169, 0.703);
+    height: 300px;
+    padding-top: 10px;
+}
+
+.activities-title{
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.activities-img{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+.activity-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#guide{
+    background-color: rgba(50, 67, 144, 0.737);
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.card{
+    display: flex;
+    width: 70%;
+    padding: 40px;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.card-guide{
+    margin-top: 10px;
+}
+
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+img{
+    width: 250px;
+    border-radius: 20%;
+}
